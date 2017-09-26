@@ -1,131 +1,853 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Willkommen — Sebastian Wehrmann</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description"
-          content="Private Homepage von Sebastian Wehrmann" />
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="de"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="de"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="de"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="de"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Sebastian Wehrmann</title>
+    <meta name="description" content="Private Homepage von Sebastian Wehrmann.">
+    <meta name="author" content="Sebastian Wehrmann">
     <meta name="keywords"
           content="Sebastian Wehrmann, sw83, webdesign, photography, python" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/alpha_background.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive_custom.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css">
 
-    <link rel="shortcut icon" type="image/x-icon"
-          href="resources/favicon.ico" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <link rel="stylesheet" type="text/css"
-          href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
-    <link rel="stylesheet" type="text/css"
-          href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
-    <link rel="stylesheet" type="text/css"
-          href="resources/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <link rel="alternate" type="application/rss+xml"
-          title="Neueste Photos von Snap and Smile"
-          href="http://500px.com/snapandsmile/rss" />
-    <link rel="alternate" type="application/rss+xml"
-          title="Snap and Smile - Blog"
-          href="http://www.snap-and-smile.de/rss.xml" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700'
+          rel='stylesheet' type='text/css'>
+</head>
 
-    <script type="text/javascript"
-            src="resources/jquery.min.js"></script>
-    <script type="text/javascript"
-            src="resources/jquery.tweet.js"></script>
-    <script type="text/javascript"
-            src="resources/twitter.js"></script>
-  </head>
-  <body>
-    <div id="main">
-      <div id="header">
-        <div id="logo">
-          <div class="slogan">Sebastian Wehrmann</div>
+<body data-spy="scroll" data-target="#section-topbar" data-offset="60">
+
+    <div id="section-topbar">
+        <div id="topbar-inner">
+            <div class="container">
+                <div class="sixteen columns">
+                    <div class="dropdown">
+                        <ul id="nav" class="nav">
+                            <li class="menu-item">
+                                <a href="#section-intro" title="Profil">
+                                    <img src="images/icons/icon_profile.png" alt="Profil" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#section-resume" title="Lebenslauf">
+                                    <img src="images/icons/icon_resume.png" alt="Lebenslauf" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#section-works" title="Publikationen">
+                                    <img src="images/icons/icon_works.png" alt="Publikationen" />
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#section-contact" title="Kontakt">
+                                    <img src="images/icons/icon_testimonials.png" alt="Kontakt" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
         </div>
-        <div id="menubar">
-          <ul id="menu">
-            <li class="current">
-              <a href="index.html">Willkommen</a>
-            </li>
-            <li class="">
-              <a href="publications.html">Veröffentlichungen</a>
-            </li>
-            <li><a href="http://www.snap-and-smile.de">Fotografie</a></li>
-            <li><a href="http://www.snap-and-smile.de/blog.html">Blog</a></li>
-          </ul>
-      </div>
     </div>
-    <div id="site_content">
 
-      <div id="sidebar_container">
-        <img class="paperclip" alt="paperclip"
-             src="resources/paperclip.png" />
-        <div class="sidebar" id="what_know">
-          <h3>Wissenswertes</h3>
-          <h4>Name</h4>
-          <p>Sebastian Wehrmann</p>
-          <h4>Beruf</h4>
-          <p>Software-Entwickler</p>
-          <h4>Hobbys</h4>
-          <p>Fotografie, Fußball, Laufen</p>
-          <h4>Magazinempfehlung</h4>
-          <p>ZEIT Wissen, LFI</p>
-          <h4>Beliebte Urlaubsziele</h4>
-          <p>Südkorea, Slowakei, Italien</p>
+    <div id="section-intro">
+
+        <div id="section-profileImage">
+            <div class="container">
+                <div class="sixteen columns">
+                    <div id="box-name">
+                        <h2>Dipl.-Inf. Sebastian Wehrmann</h2>
+                        <p>Senior Software Engineer
+                           <span class="font-color-primary"> / </span>
+                           <a href="mailto:sebastian@wehrmann.it"
+                              class="link-email">sebastian@wehrmann.it</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
         </div>
-      </div>
 
-      <div id="content"><h1>Willkommen</h1>
-        <p>
-          <img class="center" style="margin-top: 0px"
-               src="images/selfportrait.jpg" alt="Selbstportrait"/></p>
-        <h2>&#220;ber mich</h2>
-        <p>
-          <img class="right" src="images/sebastian-wehrmann.png"
-               alt="Ich in Südkorea." titel="Ich in Südkorea."/></p>
-        <p>Nach dem Abitur 2002 habe ich an der Technischen Hochschule
-           Chemnitz mein Studium der "Angewandten Informatik" begonnen,
-           welches ich 2008 erfolgreich beendete. Seit dem arbeite ich
-           bei der
-           <a title="gocept gmbh &amp; co. kg"
-              href="http://www.gocept.com">gocept gmbh &amp; co. kg</a>
-           in Halle als Software-Entwickler.</p>
-        <p>In meiner Freizeit besch&#228;ftige ich mich viel mit der
-           Fotografie und treibe Sport (z.B. Laufen, Fu&#223;ball und
-           Badminton spielen, Ski- und Fahrrad fahren und Wandern).
-           Pers&#246;nliches Highlight war mein erster Marathon, den
-           ich 2008 in unter vier Stunden absolviert habe. Ausserdem
-           treffe ich mich gern mit Freunden und bin bei
-           <a title="Path - the private social network"
-              href="http://www.path.com/moments">
-             Path</a>&#160;ziemlich aktiv. :)</p>
-        <p style="text-align: right;
-                  width: 500px;
-                  max-height: 200px;
-                  overflow: hidden;">
-          <a href="https://psnprofiles.com/Basti110183">
-            <img title="Mein Playstation Network Profil"
-                 src="https://card.psnprofiles.com/2/Basti110183.png"
-                 alt="Mein Playstation Network Profil"/></a></p>
-      </div>
+        <div id="section-about">
+            <div class="container">
+                <div class="three columns">
+                    <h3>About</h3>
+                </div>
 
-      <div id="footer">
-        <p>
-          <a href="http://www.facebook.com/wehrmann.sebastian">Facebook</a> | 
-          <a href="http://twitter.com/#!/sweh2">Twitter</a> | 
-          <a href="http://www.snap-and-smile.de">Fotografie</a>
-        </p>
-      </div>
+                <div class="nine columns">
+                    <p class="intro">
+                      Nach dem Abitur 2002 habe ich an der Technischen Hochschule Chemnitz mein
+                      Studium der "Angewandten Informatik" begonnen, welches ich 2008 erfolgreich
+                      beendete. Danach arbeitete ich bis 2016 bei der <a
+                          href="https://www.gocept.com">gocept gmbh & co. kg</a> in Halle als
+                      Software-Entwickler und anschließend bis heute für die <a
+                          href="https://www.risclog.de">riscLog Solution GmbH</a> als Senior
+                      Software-Entwickler die meiste Zeit im Home-Office.
+                    </p>
+                    <br />
+                    <p class="intro">
+                      In meiner Freizeit beschäftige ich mich viel mit der Fotografie und treibe
+                      Sport (z.B. Laufen, Fußball und Badminton spielen, Ski- und Fahrrad fahren
+                      und Wandern). Persönliches Highlight war mein erster Marathon, den ich 2008
+                      in <a
+                          href="https://mitteldeutscher-marathon.de/ergebnisse?view=result&id=806659:wehrmann-sebastian">rund
+                          vier Stunden</a> absolviert habe.
+                    </p>
+                </div>
+
+                <div class="four columns">
+                    <a href="#" class="link-print">Lebenslauf drucken</a>
+                    <a href="downloads/lebenslauf_sebastian_wehrmann.pdf"
+                       title="Lebenslauf als PDF heruunterladen"
+                       class="link-pdf">Lebenslauf als PDF</a>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
     </div>
-  </div>
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-4722068-1']);
-      _gaq.push(['_setDomainName', 'sw83.de']);
-      _gaq.push(['_trackPageview']);
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    <div id="section-resume">
 
-  </script>
-  </body>
+        <div class="section-title">
+            <div class="container">
+                <div class="sixteen columns">
+                    <h2>Lebenslauf</h2>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="block">
+                <div class="three columns">
+                    <h3>Ausbildung</h3>
+                </div>
+
+                <div class="thirteen columns">
+                    <div class="item">
+                        <div class="nine columns alpha no-border">
+                            <h4>
+                                Fotodesigner
+                                <span class="font-color-gray">
+                                    (OfG)
+                                </span>
+                            </h4>
+                            <p>
+                                <span class="italic font-color-black">
+                                    Online-Schule für Gestaltung
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">
+                                November 2012 – Mai 2013<br />
+                            </p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha no-border">
+                            <h4>
+                                Diplom in Angewandter Informatik
+                                <span class="font-color-gray">
+                                    (Vertiefung: Medieninformatik)
+                                </span>
+                            </h4>
+                            <p>
+                                <span class="italic font-color-black">
+                                    Technische Universität Chemnitz
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">
+                                Oktober 2002 – Juni 2008<br />
+                            </p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha no-border">
+                            <h4>
+                                Abitur
+                            </h4>
+                            <p>
+                                <span class="italic font-color-black">
+                                    Johann Gottfried Herder Gymnasium Merseburg
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">
+                                Juli 1993 – Mai 2002<br />
+                            </p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+            </div>
+
+
+            <!-- WORK -->
+            <div class="block">
+                <div class="three columns">
+                    <h3>Berufliche Laufbahn</h3>
+                </div>
+
+                <div class="thirteen columns">
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Senior Software Engineer</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    riscLOG Solution GmbH</span><br />
+                            </p>
+
+                            <p class="desc">
+                                
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">August 2016 ~ heute</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Software Engineer</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    gocept gmbh &amp; co. kg
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Entwicklung von individuellen Kommunikations- und
+                                        -Informationssystemen mit Python, JavaScript, Zope,
+                                        Plone und Pyramid
+                                    </li>
+                                    <li>
+                                        Durchführung der Fehleranalyse und -behebung von
+                                        eigens erstellten oder bereits bestehenden Lösungen
+                                    </li>
+                                    <li>
+                                        Konzeption und Implementierung von Datenbanken
+                                        und Benutzungsoberflächen
+                                    </li>
+                                    <li>
+                                        Pflege und Wartung von Softwaresystemen
+                                    </li>
+                                    <li>
+                                        Kundensupport auf Ebene von Second- und Third-
+                                        Level-Support
+                                    </li>
+                                    <li>
+                                        Betreuung von Teilen der technischen Infrastruktur bei
+                                        gocept
+                                    </li>
+                                    <li>
+                                        Ersthelfer
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">Juli 2008 ~ August 2016</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Diplomand</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    gocept gmbh &amp; co. kg
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Effiziente Ad-Hoc-Abfragen in Objektdatenbanken am
+                                        Beispiel der Zope Object Database (ZODB)
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">September 2007 ~ Juni 2008</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Praktikant</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    Daimler AG (Werk Sindelfingen)
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Entwicklung und Wartung einer Intranet-
+                                        Webapplikation im Bereich Qualitätsmanagement
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">September 2006 ~ August 2007</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Web-Entwickler PHP/MySQL/JavaScript</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    Sebastian Wehrmann
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Entwicklung von individuellen Softwaresystemen auf Basis
+                                        von PHP4, MySQL5 und JavaScript
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">Juli 2000 ~ August 2007</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Hilfswissenschaftler</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    Technische Universität Chemnitz
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Entwicklung einer Homepage zur Unternehmensberatung mit
+                                        Typo3
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">März 2006 ~ August 2006</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="item">
+                        <div class="nine columns alpha">
+                            <h4>Praktikant</h4>
+                            <p>
+                                <span class="font-color-black italic">
+                                    MegWare
+                                </span><br />
+
+                            <p class="desc">
+                                <ul>
+                                    <li>
+                                        Reparatur von Kunden-PCs
+                                    </li>
+                                    <li>
+                                        Verkauf
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="four columns omega">
+                            <p class="date">Juni 2000 ~ August 2000</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+
+            <div class="block last">
+                <div class="three columns">
+                    <h3>Fähigkeiten</h3>
+                </div>
+
+                <div class="thirteen columns">
+
+                    <div class="box-skill">
+                        <div class="box-inner">
+                            <h4>Python</h4>
+                            <p>
+                                Von kleinen Projekten bis hin zu großen Framework-basierten
+                                Web-Anwendungen - ich habe über 10 Jahre Erfahrung in der Python
+                                Webentwicklung.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-skill">
+                        <div class="box-inner">
+                            <h4>Javascript</h4>
+                            <p>
+                                Die Software-Entwicklung im Client ist genauso wichtig wie auf dem
+                                Server. Hier greife ich auf einen Erfahrungsschatz von mehr als 15
+                                Jahren zurück.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-skill">
+                        <div class="box-inner">
+                            <h4>HTML/CSS</h4>
+                            <p>
+                                Ich bin kein Frontend-Designer, habe aber die Syntax von HTML und
+                                CSS im Kopf und kenne auch die Meisten Kniffe, die es braucht, um
+                                Fehler in älteren Browsern zu umgehen.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id="section-works">
+        <div class="container">
+            <div class="three columns">
+                <h3>Publikationen</h3>
+            </div>
+
+            <div class="thirteen columns">
+
+                <a href="#" data-reveal-id="work-modal-01">
+                    <div class="item">
+                        <div class="eight columns alpha">
+                            <img src="images/book_pencil.jpg" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Diplomarbeit</span>
+                                <h4>Effiziente Ad-Hoc-Abfragen in Objektdatenbanken</h4>
+
+                                <p>
+                                    Aufgabe dieser Diplomarbeit war es, effiziente
+                                    Ad-Hoc-Anfragemöglichkeiten zu evaluieren und eine geeignete
+                                    in Python zu implementieren.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+                <a href="#" data-reveal-id="work-modal-02">
+                    <div class="item">
+                        <div class="eight columns alpha">
+                            <img src="images/rechenzentrum.jpg" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Studienarbeit</span>
+                                <h4>
+                                    Sicheres Verteilen von Konfigurationsdaten und
+                                    Migrationsstrategie zum Trennen von Diensten und Datenbasis
+                                </h4>
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+                <a href="#" data-reveal-id="work-modal-03">
+                    <div class="item last">
+                        <div class="eight columns alpha">
+                            <img src="images/stundenplaner.jpg" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Softwarepraktikum</span>
+                                <h4>
+                                    Implementierung eines Web-Stundenplaners für die Technische
+                                    Universität Chemnitz.
+                                </h4>
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+                <a href="#" data-reveal-id="work-modal-04">
+                    <div class="item last">
+                        <div class="eight columns alpha">
+                            <img src="images/verkauf.jpg" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Praktikum “Multimediaapplikationen”</span>
+                                <h4>
+                                    Realisierung von Interaktionsmechanismen am Beispiel
+                                    Verkaufsverhandlung.
+                                </h4>
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+                <a href="#" data-reveal-id="work-modal-05">
+                    <div class="item last">
+                        <div class="eight columns alpha">
+                            <img src="images/php_mysql.jpg" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Praktikum “Mediengestaltung”</span>
+                                <h4>
+                                    Umstellung der Homepage der Fakultät für Medieninformatik von
+                                    SSI auf PHP und MySQL.
+                                </h4>
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+                <a href="#" data-reveal-id="work-modal-06">
+                    <div class="item last">
+                        <div class="eight columns alpha">
+                            <img src="images/musikal_db.png" alt="" />
+                        </div>
+
+                        <div class="five columns omega">
+                            <div class="work-info">
+                                <span class="category">Praktikum “Musikalische Datenbanken”</span>
+                                <h4>
+                                    Prinzipen des Digitalen Rechtemanagements von Musik.
+                                </h4>
+
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="work-modal-01" class="reveal-modal">
+        <img src="images/laptop_booklet_big.jpg" alt="" />
+
+        <div class="box-modal">
+            <h4>Diplomarbeit</h4>
+
+            <p>Effiziente Ad-Hoc-Abfragen in Objektdatenbanken am Beispiel der ZODB</p>
+
+            <p>
+                Die Zope Object Database, kurz ZODB, ist eine Open-Source-Datenbank für Python. Im
+                Gegensatz zu den meisten relationalen Datenbanken verfügt die ZODB allerdings nicht
+                über eine Anfragesprache zur gezielten Selektion von Objekten.
+            </p>
+            <p>
+                Aufgabe dieser Diplomarbeit ist es, effiziente Ad-Hoc-Anfragemöglichkeiten zu
+                evaluieren und eine geeignete als Zusatzprodukt in Python zu implementieren.
+            </p>
+        </div>
+
+        <a href="http://www.qucosa.de/recherche/frontdoor/?tx_slubopus4frontend[id]=5601"
+           class="link-details">Zum Download</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+
+    <div id="work-modal-02" class="reveal-modal">
+        <img src="images/rechenzentrum_big.jpg" alt="" />
+
+        <div class="box-modal">
+            <h4>Studienarbeit</h4>
+
+            <p>
+                Sicheres Verteilen von Konfigurationsdaten und Migrationsstrategie zum Trennen
+                von Diensten und Datenbasis.
+            </p>
+
+            <p>
+                Aus historischen Gründen war die CSN Datenbank und die darauf zugreifenden Dienste
+                immer auf dem selben Rechner. Zum einen aus Geldmangel, zum anderen, weil die
+                Verteilung der Konfiguration und Zugriffssteuerung zur Datenbank ein ungelöstes
+                Problem ist. Aufgabe dieser Arbeit ist die physikalische und logische Trennung der
+                Firewall (und des Shapers) von der Datenbank. Dazu muss ein Dienst geschaffen
+                werden, der die Konfigurationsinformationen für die Firewall und potentiell andere
+                Applikationen bereitstellt. Der Zugriff auf diese Informationen muss vor Dritten
+                geschützt werden. Im Weiteren soll eine Migrationstrategie entworfen werden, wie
+                der Übergang zu der skizzierten Lösung bewerkstelligt werden kann.
+            </p>
+        </div>
+
+        <a href="http://www.qucosa.de/recherche/frontdoor/?tx_slubopus4frontend[id]=5232"
+           class="link-details">Zum Download</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+    <div id="work-modal-03" class="reveal-modal">
+        <img src="images/stundenplaner_big.jpg" alt="" />
+
+        <div class="box-modal">
+            <h4>Softwarepraktikum</h4>
+
+            <p>
+                Implementierung eines Web-Stundenplaners für die Technische Universität Chemnitz.
+            </p>
+
+        </div>
+
+        <a href="downloads/swp26.zip" class="link-details">Download (zip)</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+    <div id="work-modal-04" class="reveal-modal">
+        <img src="images/verkauf_big.jpg" alt="" />
+
+        <div class="box-modal">
+            <h4>Praktikum “Multimediaapplikationen”</h4>
+
+            <p>
+                Realisierung von Interaktionsmechanismen am Beispiel Verkaufsverhandlung.
+            </p>
+
+        </div>
+
+        <a href="downloads/mma_doku.pdf" class="link-details">Download (pdf)</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+    <div id="work-modal-05" class="reveal-modal">
+        <img src="images/php_mysql.jpg" alt="" />
+
+        <div class="box-modal">
+            <h4>Praktikum “Mediengestaltung”</h4>
+
+            <p>
+                Umstellung der Homepage der Fakultät für Medieninformatik von SSI auf PHP und MySQL.
+            </p>
+
+        </div>
+
+        <a href="downloads/MG_II13.zip" class="link-details">Download (zip)</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+    <div id="work-modal-06" class="reveal-modal">
+        <img src="images/musikal_db_big.png" alt="" />
+
+        <div class="box-modal">
+            <h4>Praktikum “Musikalische Datenbanken”</h4>
+
+            <p>
+                Prinzipen des Digitalen Rechtemanagements von Musik.
+            </p>
+
+        </div>
+
+        <a href="downloads/hs-mdb_drm-verfahren.pdf" class="link-details">Download (pdf)</a>
+        <a class="close-reveal-modal">Schließen</a>
+    </div>
+
+
+    <div id="section-contact">
+
+        <div class="container">
+            <div class="nine columns">
+                <h3>Kontakt</h3>
+                <p>
+                    Sebastian Wehrmann<br />
+                    Geseniusstr. 34<br />
+                    06110 Halle (Saale)<br />
+                    <br />
+                    Tel.: 0172 1096832<br />
+                    Mail: sebastian@wehrmann.it
+
+            </div>
+
+            <div class="seven columns">
+
+                <h3>Testimonials</h3>
+                <div id="box-testimonials">
+                    <div class="item">
+                        <blockquote>
+                            <p class="quote">
+                                «Durch ausgezeichnete Vorkenntnisse und Erfahrungen in Pyramid und
+                                Python konnten wir Herrn Wehrmann sehr schnell produktiv in
+                                der Weiterentwicklung unserer Produkte einsetzen.»
+                            </p>
+
+                            <h4>Axel Sander</h4>
+                            <p class="position">
+                                riscLOG Solutions GmbH, <em>Geschäftsführer</em>
+                            </p>
+                        </blockquote>
+                    </div>
+
+                    <div class="item">
+                        <blockquote>
+                            <p class="quote">
+                                «Aufgrund seiner regelmäßigen und selbständigen Weiterbildung
+                                eignete sich Herr Wehrmann insbesondere im Bereich der
+                                Frontend-Entwicklung mit aktuellen Technologien und Werkzeugen ein
+                                Fachwissen an, wodurch er als Experte in diesem Bereich für das
+                                gesamte Entwicklungsteam eine wichtige Rolle übernahm.»
+                            </p>
+
+                            <h4>Christian Kreutzer</h4>
+                            <p class="position">
+                                gocept gmbh &amp; co. kg, <em>Geschäftsführer</em>
+                            </p>
+                        </blockquote>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section-footer">
+        <div class="container">
+            <div class="six columns">
+                <p><a href="mailto:sebastian@wehrmann.it">sebastian@wehrmann.it</a></p>
+            </div>
+
+            <div class="ten columns">
+                <ul id="social">
+                    <li>
+                        <a href="http://www.twitter.com/sweh2" title="">
+                            <img src="images/icons/icon_twitter.png" alt="Twitter" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/jquery.ajaxContactForm.js"></script>
+    <script src="js/jquery.foundation.reveal.js"></script>
+    <script src="js/jquery.custom.js"></script>
+
+    <!--[if !IE]> -->
+        <script src="js/jquery.custom.noIE.js"></script>
+    <!-- <![endif]-->
+
+
+</body>
 </html>
