@@ -45,24 +45,10 @@ h4 { font-size: 13px; line-height: 23px; }
 h6 { font-size: 12px; line-height: 14px; }
 
 /* Links */
-a, a:visited { color: #333; text-decoration: none; underline; outline: 0; }
+a, a:visited { color: #333; text-decoration: none; outline: 0; }
 a:hover, a:focus { color: #000; }
 p a, p a:visited { line-height: inherit; }
 
-
-/* Highlighted Text */
-::selection { 
-	background: #567995; 
-	color:#fff; 
-	text-shadow: none; 
-}
-
-/* Firefox */
-::-moz-selection { 
-	background: #567995; 
-	color:#fff; 
-	text-shadow: none; 
-}
 
 em, .italic { font-style: italic; }
 strong { font-weight: bold; }
@@ -149,10 +135,6 @@ h5 {
 		padding: 0;
 
 		border-right: 1px solid #222;
-
-		/* For IE, the outcast */
-		zoom:1;
-		*display: inline;
 	}
 
 	#section-topbar ul#nav > li {
