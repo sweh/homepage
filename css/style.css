@@ -782,6 +782,26 @@ h5 {
 
 		#section-footer a:hover { color: #567995; }
 
+		#section-footer ul#w3c {
+			float: left;
+			border-right: 1px solid #111;
+		}
+
+		#section-footer ul#w3c li {
+			display: inline-block;
+			float: right;
+		}
+
+		#section-footer ul#w3c li a {
+			display: block;
+			line-height: 0;
+			padding: 30px;
+		}
+
+
+		#section-footer ul#w3c li a:hover {
+			background: #567995;
+		}
 
 		#section-footer ul#social {
 			float: right;
