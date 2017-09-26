@@ -52,14 +52,14 @@ p a, p a:visited { line-height: inherit; }
 
 /* Highlighted Text */
 ::selection { 
-	background: #44bbaa; 
+	background: #567995; 
 	color:#fff; 
 	text-shadow: none; 
 }
 
 /* Firefox */
 ::-moz-selection { 
-	background: #44bbaa; 
+	background: #567995; 
 	color:#fff; 
 	text-shadow: none; 
 }
@@ -69,7 +69,7 @@ strong { font-weight: bold; }
 small { font-size: 80%; }
 
 .font-color-primary {
-	color: #44bbaa;
+	color: #567995;
 }
 
 .font-color-gray {
@@ -177,12 +177,12 @@ h5 {
 		}
 
 		#section-topbar ul#nav .active a {
-			background: #44bbaa;
+			background: #567995;
 			border-left: 1px solid #111;
 		}
 
 			#section-topbar ul#nav .active a:hover {
-				background: #44bbaa;
+				background: #567995;
 			}
 
 
@@ -249,13 +249,13 @@ h5 {
 				}
 
 					#section-profileImage #box-name a:hover {
-						color: #44bbaa;
+						color: #567995;
 					}
 
 		/* About */
 		#section-about {
 			color: #fff;
-			background: #44bbaa;
+			background: #567995;
 			padding: 40px 0;
 		}
 
@@ -302,13 +302,13 @@ h5 {
 	}
 	
 		#section-resume .section-title {
-			color: #44bbaa;
+			color: #567995;
 			padding: 50px 0;
 			display: none;
 		}
 
 		#section-resume h2 {
-			color: #44bbaa;
+			color: #567995;
 		}
 
 		#section-resume h3 {
@@ -356,7 +356,7 @@ h5 {
 
 			#section-resume #box-profile a.link-email:hover,
 			#section-resume #box-profile a.link-phone:hover {
-				color: #44bbaa;
+				color: #567995;
 			}
 
 		#section-resume .item {
@@ -373,7 +373,7 @@ h5 {
 				}
 			
 			#section-resume .item h4 {
-				color: #44bbaa;
+				color: #567995;
 				font: normal 14px/24px 'PT Serif', Georgia, serif;
 			}
 		
@@ -567,7 +567,7 @@ h5 {
 
 				.reveal-modal a.link-details:hover {
 					color: #fff;
-					background: #44bbaa;
+					background: #567995;
 				}
 
 			.reveal-modal a.close-reveal-modal {
@@ -582,7 +582,7 @@ h5 {
 			}
 
 				.reveal-modal a.close-reveal-modal:hover {
-					color: #44bbaa;
+					color: #567995;
 					background: #000;
 				}
 
@@ -652,7 +652,7 @@ h5 {
 		#section-contact textarea:focus, 
 		#section-contact select:focus { 
 			color: #fff;
-			background-color: #44bbaa;
+			background-color: #567995;
 		}
 		
 		#section-contact button.submit {
@@ -662,7 +662,7 @@ h5 {
 			display: block;
 			cursor: pointer;
 			color:#fff;
-			background:#44bbaa;
+			background:#567995;
 			padding: 20px 28px;
 			border: none;
 			-moz-border-radius: 3px;
@@ -672,12 +672,12 @@ h5 {
 		}
 		
 		#section-contact button.submit:hover { 
-			color: #44bbaa;
+			color: #567995;
 			background: #fff; 
 		}
 		
 		#section-contact span.required { 
-			color: #44bbaa;
+			color: #567995;
 			font-size: 13px;  
 		} /* Select the color of the * if the field is required. */
 
@@ -705,11 +705,11 @@ h5 {
 
 		/* HTML5 Placeholder */
 		::-webkit-input-placeholder {
-		   color: #44bbaa;
+		   color: #567995;
 		}
 
 		:-moz-placeholder {  
-			color: #44bbaa;
+			color: #567995;
 		}
 
 
@@ -767,7 +767,7 @@ h5 {
 			}
 
 			#box-testimonials blockquote h4 {
-				color: #44bbaa;
+				color: #567995;
 				font: normal 15px/25px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 				margin-top: 10px;
 			}
@@ -798,7 +798,7 @@ h5 {
 
 		#section-footer a { color: #fff; }
 
-		#section-footer a:hover { color: #44bbaa; }
+		#section-footer a:hover { color: #567995; }
 
 
 		#section-footer ul#social {
@@ -819,10 +819,10 @@ h5 {
 
 		@media only screen and (max-width: 767px) {
 			#section-footer ul#social li a {
-				background: #44bbaa;
+				background: #567995;
 			}
 		}
 
 		#section-footer ul#social li a:hover {
-			background: #44bbaa;
+			background: #567995;
 		}
